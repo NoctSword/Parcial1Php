@@ -1,0 +1,65 @@
+
+.wrap { 
+    padding: 25px; 
+    text-align: center; 
+    box-shadow: 0 4px 25px -4px #9da5ab; 
+}
+article { 
+    padding: 25px 0; 
+    line-height: 150%; 
+    text-align: left; 
+}
+
+nav .item {
+    text-decoration: none;
+}
+nav .active {
+    border-bottom: 1px solid;   
+}
+
+@media only screen and (min-width: 768px) {
+    article { 
+        padding: 40px; 
+    }
+    .wrap { 
+        max-width: 750px; 
+        margin: 50px auto;
+        padding: 30px 40px;
+    }
+}
+
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+  }
+  
+  .form-signin {
+    max-width: 330px;
+    padding: 15px;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="usuario"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="contrasenia"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+    
